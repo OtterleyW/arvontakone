@@ -79,7 +79,7 @@ class ListaTuloslistoista extends Component {
   naytaTulokset(){
     return this.props.tulosLista.map((tulos, index) =>
       <div key={index}>
-        <h2>Tulos {index+1}</h2>
+        <h2>Tulos {index+1}:</h2>
         <TulosLista 
           tulos={tulos}
           boldattu={this.state.boldattu}
